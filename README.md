@@ -12,6 +12,12 @@ Este é um gerador de programas Fortran que permite criar códigos baseados em d
 - Python 3.x
 - Biblioteca `os` (inclusa no Python padrão)
 
+## Instalação
+Antes de executar o programa, instale as dependências necessárias:
+```sh
+pip install -r requirements.txt
+```
+
 ## Como Usar
 1. Clone este repositório:
    ```sh
@@ -21,12 +27,16 @@ Este é um gerador de programas Fortran que permite criar códigos baseados em d
    ```sh
    cd seurepositorio
    ```
-3. Execute o script Python:
+3. Instale as dependências:
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Execute o script Python:
    ```sh
    python gerador_fortran.py
    ```
-4. Responda às perguntas para gerar o código desejado.
-5. O código Fortran será salvo em um arquivo gerado automaticamente.
+5. Responda às perguntas para gerar o código desejado.
+6. O código Fortran será salvo em um arquivo gerado automaticamente.
 
 ## Exemplo de Saída
 Aqui está um exemplo de um código Fortran gerado pelo programa:
